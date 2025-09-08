@@ -14,7 +14,7 @@ const Me = () => {
                     <img src={ProfilePic} alt="Amna" />
                     <div className="me-left-text">
                         <h2>Hey!</h2>
-                        <p>a full-stack React developer with a curious mind,
+                        <p>I am a full-stack React developer with a curious mind,
                             a love for geospatial magic, and a passion for turning ideas into interactive digital experiences.
                         </p>
                     </div>
