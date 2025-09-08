@@ -1,0 +1,66 @@
+.map-section {
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.map-section h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.map-wrapper {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.map {
+    flex: 1;
+    min-width: 600px;
+    height: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.lake-info {
+    min-width: 220px;
+    padding: 1rem;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.lake-info h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.map-legend {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: white;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border-radius: 4px;
+}

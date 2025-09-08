@@ -1,0 +1,129 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(rgb(244, 241, 238));
+    color: rgb(50, 54, 57);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Make all text same size on desktop */
+.name,
+.tech-text {
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.logo-svg {
+    width: 50px;
+    height: 50px;
+}
+
+/* Desktop nav menu */
+.header-right {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-right button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    /* same size as text */
+    color: rgb(50, 54, 57);
+    cursor: pointer;
+    font-family: Sans-serif;
+
+}
+
+/* Hamburger Menu - hidden on desktop */
+.menu-toggle {
+    display: none;
+}
+
+/* Small Pop-up Menu */
+.popup-menu {
+    position: absolute;
+    top: 60px;
+    right: 1rem;
+    width: 160px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(50, 54, 57, 0.15);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    z-index: 1050;
+}
+
+.popup-menu button {
+    background: none;
+    border: none;
+    color: #333;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    /* same as desktop text */
+    cursor: pointer;
+}
+
+.popup-menu button:hover {
+    background: rgb(240, 240, 240);
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+    .header-left {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 20px;
+        height: 20px;
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+    .menu-toggle span {
+        width: 100%;
+        height: 3px;
+        background: rgb(50, 54, 57);
+        border-radius: 2px;
+        transition: all 0.3s;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .popup-menu {
+        width: 140px;
+    }
+
+    .name,
+    .tech-text {
+        font-size: 1.1rem;
+    }
+
+    .header-right button {
+        font-size: 0.7rem;
+    }
+}

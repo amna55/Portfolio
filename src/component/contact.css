@@ -1,0 +1,135 @@
+.contact-section {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* centers everything horizontally */
+    padding: 2rem;
+    padding-bottom: 10rem;
+    background: linear-gradient(rgb(244, 241, 238));
+    color: #444;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    text-align: center;
+    /* keeps the text centered */
+    gap: 2rem;
+    /* space between text and buttons */
+}
+
+.thank-you {
+    font-size: 60px;
+    margin: 0 0 1rem 0;
+}
+
+.lets-connect {
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-button {
+    display: inline-flex;
+    /* make both a & button flex containers */
+    align-items: center;
+    /* vertically center text */
+    justify-content: center;
+    /* horizontally center text */
+    padding: 0.8rem 1.8rem;
+    border-radius: 9999px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    box-sizing: border-box;
+    /* ensures padding is consistent */
+}
+
+
+.contact-button.email {
+    background: #f36d7b;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-button.email:hover {
+    background: #e35565;
+}
+
+.contact-button.linkedin {
+    background: #f36d7b;
+}
+
+.contact-button.linkedin:hover {
+    background: #e35565;
+}
+
+.copy-notification {
+    margin-top: 1rem;
+    color: #22c55e;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+/* ------------------ Responsive ------------------ */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .thank-you {
+        font-size: 48px;
+    }
+
+    .lets-connect {
+        font-size: 28px;
+    }
+
+    .contact-button {
+        font-size: 0.95rem;
+        padding: 0.7rem 1.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .thank-you {
+        font-size: 40px;
+    }
+
+    .lets-connect {
+        font-size: 24px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contact-button {
+        width: 80%;
+        max-width: 250px;
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .thank-you {
+        font-size: 32px;
+    }
+
+    .lets-connect {
+        font-size: 20px;
+    }
+
+    .contact-button {
+        font-size: 0.85rem;
+        padding: 0.5rem 1rem;
+    }
+}
