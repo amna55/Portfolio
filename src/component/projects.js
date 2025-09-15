@@ -11,12 +11,20 @@ const projectsData = [
         bgColor: "#FFD8D8", // pastel red
     },
     {
+        title: "Carbon Watch Browser Extension",
+        description:
+            "Carbon Watch is a lightweight browser extension that estimates the carbon footprint of your web browsing.It tracks the amount of data transferred on each website you visit and converts it into an estimated CO₂ emission, giving users awareness of the environmental impact of digital activity.",
+        tech: ["Javascript", "Html", "Chrome", "Extension"],
+        github: "https://github.com/amna55/ClimateTimeMachine_Rust.git",
+        bgColor: "cfbaf0", // pastel red
+    },
+    {
         title: "Statbot",
         description:
             "StatBot is an interactive chatbot powered by Google’s Gemini API, designed to answer questions related to statistics, population, GDP, education, employment, and inflation. The bot combines a React frontend with a Node.js backend, providing a seamless real-time chat experience.",
         tech: ["React", "Node", "GeminiApi", "REST API"],
         github: "https://github.com/amna55/statbot.git",
-        bgColor: "#ff964f", // pastel red
+        bgColor: "#ffcfd2", // pastel coral
     },
     {
         title: "URL Analyzer",
