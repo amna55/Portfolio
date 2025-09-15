@@ -16,7 +16,7 @@ const projectsData = [
             "Carbon Watch is a lightweight browser extension that estimates the carbon footprint of your web browsing.It tracks the amount of data transferred on each website you visit and converts it into an estimated CO₂ emission, giving users awareness of the environmental impact of digital activity.",
         tech: ["Javascript", "Html", "Chrome", "Extension"],
         github: "https://github.com/amna55/ClimateTimeMachine_Rust.git",
-        bgColor: "cfbaf0", // pastel red
+        bgColor: "b9fbc0", // pastel red
     },
     {
         title: "Statbot",
