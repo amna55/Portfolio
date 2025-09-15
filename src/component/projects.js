@@ -11,6 +11,14 @@ const projectsData = [
         bgColor: "#FFD8D8", // pastel red
     },
     {
+        title: "Statbot",
+        description:
+            "StatBot is an interactive chatbot powered by Google’s Gemini API, designed to answer questions related to statistics, population, GDP, education, employment, and inflation. The bot combines a React frontend with a Node.js backend, providing a seamless real-time chat experience.",
+        tech: ["React", "Node", "GeminiApi", "REST API"],
+        github: "https://github.com/amna55/statbot.git",
+        bgColor: "#ff964f", // pastel red
+    },
+    {
         title: "URL Analyzer",
         description:
             "Powerful tool to analyze URLs for SEO, performance, and security issues.",
