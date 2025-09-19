@@ -2,6 +2,14 @@ import React from "react";
 import "./project.css";
 
 const projectsData = [
+     {
+        title: "ShopNow",
+        description:
+            "A modern, responsive shopping list application built with Nuxt 3 and Tailwind CSS. The app allows users to add, categorize, and manage their shopping items in a clean and intuitive interface.",
+        tech: ["NUXT", "Vue", "Typescript", "Javascript", "REST"],
+        github: "https://github.com/amna55/ShopNow.git",
+        bgColor: "#C1E1C1", // pastel red
+    },
     {
         title: "Climate Time Machine",
         description:
